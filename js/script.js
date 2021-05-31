@@ -1,8 +1,11 @@
-//prompt e-mail
-var addressMails = ['perizat.shatyrbekova@gmail.com', 'hey@mail.ru', 'perlas@gmail.com', 'boolean@gmail.com', 'atom@yandex.ru' ];
+//prompt e-mail ed abb
 
-var mail = prompt ('Inserire la Sua e-mail');
-var check = false;
+var addressMails, mail, check;
+
+addressMails = ['perizat.shatyrbekova@gmail.com', 'hey@mail.ru', 'perlas@gmail.com', 'boolean@gmail.com', 'atom@yandex.ru' ];
+mail = prompt ('Inserire la Sua e-mail');
+check = false;
+
 
 for (var y = 0; y < addressMails.length; y++) {
     if(addressMails [y] === mail) {
