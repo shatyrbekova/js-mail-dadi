@@ -10,6 +10,8 @@ for (var y = 0; y < addressMails.length; y++) {
     }
 }
 
+//risultato 
+
 if (check) {
     document.getElementById('start').innerHTML += 'Lei è il nostro cliente!';
 } else {
